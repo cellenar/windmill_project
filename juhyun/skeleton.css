@@ -1,0 +1,46 @@
+body {
+	margin: 0px;
+}
+
+.title {
+	background-color: lightgray;
+	height: 60px;
+}
+
+.header {
+	background-color: yellow;
+	height: 60px;
+}
+
+.main {
+	background-color: powderblue;
+	position: absolute;
+	top: 120px;
+	left: 100px;
+	height: 500px;
+	width: 500px;
+}
+
+.aside {
+	background-color: tomato;
+	position: absolute;
+	top: 120px;
+	right: 100px;
+	height: 500px;
+	width: 500px;
+
+	/*수정부분 시작*/
+
+
+
+	/*수정 끝*/
+}
+
+.footer {
+	background-color: lightblue;
+	position: fixed;
+	height: 50px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
