@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  /* border: 1px solid green; */
+}
+
+header {
+  /* border: 2px solid red; */
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.header_textzone * {
+  display: inline;
+}
+
+.headerbox {
+  border: 1px solid blue;
+  flex-basis: 30px;
+  flex-shrink: 0;
+  width: 1399px;
+  text-align: center;
+}
