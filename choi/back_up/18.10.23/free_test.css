@@ -26,3 +26,153 @@ header {
   width: 1399px;
   text-align: center;
 }
+
+/*------------aside------------------------*/
+.aside {
+  background-color: white;  /*before tomato*/
+  position: absolute;
+  top: 120px;
+  right: 100px;
+  height: 500px;
+  width: 500px;
+  border: 1px solid green;
+}
+
+.aside nav {
+  margin-top: 5px;
+  margin-left: 5px;
+  color: #586069;
+  width: 170px;
+  margin-bottom: 15px;   /*nav and url space*/
+}
+
+.aside nav .left-line {
+  border-left: 1px solid lightgrey;
+  font-size: 5px;
+  color: white;
+}
+
+.aside nav .code {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  border-top-right-radius: 5px;
+  /*right:red border*/
+  border-bottom-right-radius: 5px;
+  border-right: 3px solid red;
+}
+
+.aside nav .code a{
+  color:black;
+}
+
+.aside nav .middle {
+  padding-left: 10px;
+  border-left: 1px solid lightgrey;
+  padding-bottom:15px;
+}
+
+.aside nav .middle .issues, .requests,.pulse,.graphs{
+  padding-top:10px;
+
+}
+
+.aside nav .number {
+  float: right;
+  line-height: 1;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 20px;
+  color: #444d56;
+  background-color: rgba(27,31,35,0.08);
+
+}
+
+.aside nav .bottom {
+  border-top: 1px solid lightgrey;
+  padding-left: 10px;
+  padding-bottom:15px;
+  border-left: 1px solid lightgrey;
+  padding-bottom:15px;
+}
+
+.aside nav a {
+  text-decoration: none;
+}
+
+.aside nav .octicon {
+  fill:grey;
+}
+
+/*----------aside-nav,middle------------------------*/
+
+.aside .aside-clone-url {
+  margin-left: 5px;
+  color: #586069;
+}
+
+.aside .aside-clone-url .top-word {
+  font-size:12px;
+}
+
+.aside .aside-clone-url .aside-form span{
+  display:inline;
+}
+.aside .aside-clone-url .aside-form{
+  margin-top:5px;
+  margin-bottom:5px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  width:170px;
+  height:25px;
+}
+.aside .aside-clone-url .aside-form #aside-form-input{
+  height:25px;
+}
+
+.aside .aside-clone-url .aside-form #aside-form-button{
+  border-left: 1px solid grey;
+  width:20px;
+  float:right;
+  height:25px;
+  text-align:center;
+}
+
+.aside .aside-clone-url a {
+  text-decoration: none;
+}
+
+.aside .aside-clone-url .you-can-clone {
+  color: grey;
+  font-size: 14px;
+}
+
+/*--------------footer------------------------*/
+
+.aside .aside-footer {
+
+  margin-top: 10px;
+  margin-left: 5px;
+
+}
+.aside .aside-footer {
+  width: 170px;
+}
+
+.aside .aside-footer div .aside-bottom-box {
+  border: 1px solid lightgrey;
+  padding : 2px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius:5px;
+  font-size: 15px;
+}
+
+.aside-bottom-word {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+/*--------------------------------------------------------------------*/
