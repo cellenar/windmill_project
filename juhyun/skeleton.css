@@ -21,8 +21,8 @@ body {
 	width: 500px;
 }
 /*------------aside------------------------*/
-.aside {
-	background-color: white;  /*before tomato*/
+.ju-aside {
+	background-color: white;
 	position: absolute;
 	top: 120px;
 	right: 100px;
@@ -30,21 +30,54 @@ body {
 	width: 500px;
 }
 
-.aside nav {
+/*      octicon      */
+
+.ju-octicon {
+	fill:grey;
+	display: inline-block;
+  vertical-align: text-top;		/*octicon vertically middle*/
+}
+.ju-octicon-black{
+	fill:black;
+	display: inline-block;
+  vertical-align: text-top;
+}
+
+/*     number     */
+
+.ju-aside .ju-number {
+	float: right;
+	font-size: 13px;
+	font-weight:bold;
+	padding: 2px 5px;
+	border-radius: 10px;
+	color: #444d56;
+	background-color: rgba(27,31,35,0.08);
+	display: inline-block;
+	vertical-align: text-top;
+	line-height:1;
+}
+
+.ju-aside nav {
 	margin-left: 5px;
 	color: #586069;
 	width: 170px;
-	margin-bottom: 15px;   /*nav and url space*/
+	/*nav and middle space*/
+	margin-bottom: 15px;
 }
 
-.aside nav .left-line {
+.ju-aside nav a {
+	text-decoration: none;
+}
+
+#ju-left-line {
 	border-left: 1px solid lightgrey;
 	font-size: 5px;
 	color: white;
-
+	height: 15px;
 }
 
-.aside nav .code {
+.ju-code {
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -56,108 +89,80 @@ body {
 	border-right: 3px solid red;
 }
 
-.aside nav .code a{
+.ju-code a{
 	color:black;
 }
 
-.aside nav .middle {
+.ju-top-middle {
 	padding-left: 10px;
+	padding-top:15px;
 	border-left: 1px solid lightgrey;
 }
 
-.aside nav .middle .issues{
-	padding-top:10px;
-}
-.aside nav .middle .requests{
-	padding-top:10px;
-	padding-bottom:10px;
-}
-
-.aside nav .number {
-	float: right;
-	line-height: 1;
-	font-size: 12px;
-	padding: 2px 5px;
-	border-radius: 20px;
-	color: #444d56;
-	background-color: rgba(27,31,35,0.08);
-	line-height: 1;
-	display: inline-block;
-	vertical-align: text-top;
-}
-
-.aside nav .bottom {
-	padding-left:10px;
-	border-top: 1px solid lightgrey;
-	padding-bottom:20px;
-	border-left: 1px solid lightgrey;
-}
-
-.aside nav .middle a {
-	padding-top:5px;
+.ju-top-middle a {
+	padding-bottom:20px;	/*issue & request space, request bottom space*/
 	display: block;
+	color:#0000EE
 }
-.aside nav .bottom a {
-	padding-top:10px;
+
+/*top-bottom*/
+
+.ju-top-bottom {
+	padding-left:10px;
+	padding-top:15px;
+	border-top: 1px solid lightgrey;
+	border-left: 1px solid lightgrey;
+}
+
+.ju-top-bottom a {
+	padding-bottom:20px;	/*spaces*/
 	display:block;
-}
-.aside nav a {
-	text-decoration: none;
-}
-/*----------octicon------*/
-.octicon {
-	fill:grey;
-	display: inline-block;
-  vertical-align: text-top;
-}
-.octicon-black{
-	fill:black;
-	display: inline-block;
-  vertical-align: text-top;
+	color:#0000EE;
 }
 
-/*----------aside-nav,middle------------------------*/
 
-.aside .aside-clone-url {
+
+/*----------aside-middle------------------------*/
+
+.ju-middle {
 	margin-left: 5px;
 	color: #586069;
-}
-
-.aside .aside-clone-url .top-word {
-	font-size:12px;
-	margin-bottom:5px;
-}
-
-.aside .aside-clone-url .aside-form{
 	width:170px;
 }
-.aside .aside-clone-url .aside-form span{
+
+.ju-middle-top {
+	font-size:12px;
+	margin-bottom:10px;
+}
+
+.ju-aside-form span{
 	padding:5px;
 }
 
-.aside .aside-clone-url .aside-form #aside-form-left{
+#ju-aside-form-left{
 	border-left: 1px solid lightgrey;
 	border-top: 1px solid lightgrey;
 	border-bottom: 1px solid lightgrey;
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
-	padding-top:6px;
 }
 
+/*form and button inline*/
 
-.aside .aside-clone-url .aside-form span form{
+.ju-aside-form span form{
 	display:inline;
-	/*important*/
 }
 
-#aside-form-input {
+#ju-aside-form-input {
 	border:1px solid white;
-	width: 120px;
-	font-size:15px;
+	width: 110px;
+	font-size:14px;
 	color:#586069;
+	padding-left:5px;
 }
-#aside-form-space{
-	padding-top:6px;
+
+#ju-aside-form-right{
+	/*gradient*/
 	background-image: linear-gradient(to bottom, white, rgba(27,31,35,0.08));
 	border-top: 1px solid lightgrey;
 	border-right: 1px solid lightgrey;
@@ -165,45 +170,46 @@ body {
 	border-left: 1px solid lightgrey;
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
+	vertical-align:middle;
+	padding-left:10px;
+	padding-right:10px;
 }
 
-.aside .aside-clone-url a {
-	text-decoration: none;
-}
-
-.aside .aside-clone-url .you-can-clone {
+.ju-you-can-clone {
 	margin-top:15px;
-	color: grey;
+	color: gray;
 	font-size: 12px;
 }
 
-/*--------------footer------------------------*/
-
-.aside .aside-footer {
-
-	margin-top: 10px;
-	margin-left: 5px;
-
+.ju-you-can-clone a {
+	text-decoration: none;
+	color:#0000EE;
 }
-.aside .aside-footer {
+
+/*--------aside-bottom------------------------*/
+
+.ju-bottom {
+	margin-top: 20px;
+	margin-left: 5px;
 	width: 170px;
 }
 
-.aside .aside-footer div .aside-bottom-box {
+.ju-bottom .ju-aside-bottom-box {
 	border: 1px solid lightgrey;
-	padding : 2px;
+	padding :3px 0px;
 	text-align: center;
 	margin-bottom: 10px;
 	border-radius:5px;
-	font-size: 15px;
 	background-image: linear-gradient(to bottom, white, rgba(27,31,35,0.08));
 }
 
-.aside-bottom-word {
+.ju-bottom-word-black {
 	text-decoration: none;
 	color:black;
 	font-weight: bold;
+	font-size:14px;
 }
+
 /*--------------------------aside end----------------------------*/
 
 .footer {
