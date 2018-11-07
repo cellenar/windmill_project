@@ -1,4 +1,7 @@
-
+.jmh_total {
+	position: absolute;
+	top: 100px;
+}
 
 .jmh_octicon {
 	fill:grey;
@@ -42,9 +45,9 @@
 .jmh_order {
 	border: 1px solid lightgray;
 	margin: 2px;
-	left: 973px;
+	left: 775px;
 	top: 232px;
-	position: fixed;
+	position: absolute;
 	padding: 5px;
 	border-radius: 7px;
 	display: inline-block;
