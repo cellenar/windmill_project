@@ -1,0 +1,77 @@
+
+
+.jmh_octicon {
+	fill:grey;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.jmh_head {
+	background-color: white;
+	border: 1px solid None;
+	padding: 0px;
+	height: 100px;
+	width: 800px;
+	margin: 0px;
+	left: 13.2%;
+	top: 120px;
+	position: absolute;
+}
+
+.jmh_info {
+	background-color: white;
+	width: 800px;
+	border: 1px solid lightgray;
+	padding: 10px;
+	margin: 0px;
+	left: 13.2%;
+	top: 175px;
+	position: absolute;
+}
+
+.jmh_fresh_box {
+	fill:white;
+	padding: 5px;
+	border-radius: 7px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	background: linear-gradient(#5CE75C, #2C952C)
+}
+
+.jmh_order {
+	border: 1px solid lightgray;
+	margin: 2px;
+	left: 973px;
+	top: 232px;
+	position: fixed;
+	padding: 5px;
+	border-radius: 7px;
+	display: inline-block;
+	vertical-align: middle;
+	height: 15px;
+}
+
+.jmh_yello_box {
+	background-color: #FFDC3C;
+	width: 790px;
+	border: 10px solid None;
+	padding: 5px;
+	margin: 0px;
+	left: 13.2%;
+	top: 220px;
+	position: absolute;
+}
+
+.jmh_refresh {
+	background-color: White;
+	width: 400px;
+	border: 0px solid none;
+	left: 12.8%;
+	top: 232px;
+	position: absolute;
+}
+
+.jmh_external {
+
+}
