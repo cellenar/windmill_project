@@ -1,0 +1,74 @@
+
+.jkh_total {
+	/* left:1%; */
+	bottom :50px;
+	width: 1450px;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+
+.jkh_table {
+	position: absolute;
+	left: 13.2%;
+	width: 70%;
+	bottom: 100px;
+}
+.gray_octicon{
+	fill : gray;
+}
+.blue_octicon{
+	fill : #5f87e1;
+}
+.jkh_skybox{
+	background-color: #e1f6fa;
+}
+.jkh_graybox {
+	background-color: #dcdcdc;
+}
+.third_col {
+	text-align: right;
+}
+
+table.jkh_table {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    margin: 20px 10px;
+}
+
+table.jkh_table td {
+    width: 800px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+.jkh_textbox {
+	background-color: lightgray;
+	position: absolute;
+	border :0px solid lightgray;
+	padding:10;
+	left: 14%;
+	width : 70%;
+	bottom :100px;
+}
+.jkh_textbox2 {
+	background-color: white;
+	position: absolute;
+	border :0.1px solid lightgray;
+	padding:10;
+	left: 0px;
+	width : 100%;
+}
+
+.jkh_underline {
+  position: absolute;
+  left: 5%;
+  width: 90%;
+	bottom : 15px;
+  height: 1.5px;
+  background: lightgray;
+  transition: all .3s ease-in-out;
+}
