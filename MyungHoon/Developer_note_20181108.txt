@@ -1,0 +1,8 @@
+작업하면서 어려웠던 점
+-	Select box 꾸미기가 어려워 GitHub과 동일한 UI를 출력하는 것에 실패하였다.
+-	GitHub 페이지를 축소 및 확대시키면 중앙에서 커지고 작아지는 모습을 보이는데 position을 fixed나 absolute로 잡고 좌우로 %나 px로 공간을 잡으면 중앙에서 안 움직이고 양 옆으로 문을 여는 것 같은 모습으로 구현되어 이 부분을 해결하는 것이 어려웠다
+-	GitHub 중앙 좌측상단 부분에서 Branch:2016쪽에 WebDevCurriculum/+과 list svg 사이에 간격이 커서 이걸 Table로 구현하려고 하니 간격 조절에서 어려움을 겪었다.
+
+개선 방향
+-	Select Box UI를 GitHub과 같게, 나아가서는 더 Advanced한 모양으로 만든다.
+-	UI창이 움직일 때 움직이는 부분들이 매끄럽게 움직일 수 있도록 만든다.
